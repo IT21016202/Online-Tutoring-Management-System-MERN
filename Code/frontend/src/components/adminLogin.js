@@ -12,18 +12,6 @@ function AdminLogin() {
   function sendAdminDetails(event){
     event.preventDefault()
 
-    console.log(adminID);
-    console.log(adminPassword);
-
-  if(adminID == "ADM001" && adminPassword == "Admin1234"){
-    window.location = "/adminDashboard"; 
-    console.log("true");
-    console.log("Login Sucessful ! ");
-  } else{
-    console.log("false");
-    alert("Invalid Login Credentials !")
-  }
-
   }
   return (
 
